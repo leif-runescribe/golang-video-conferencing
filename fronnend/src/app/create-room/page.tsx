@@ -28,8 +28,8 @@ export default function CreateRoom() {
   };
 
   return (
-    <div className="min-h-screen bg-amber-400  flex items-center justify-center p-4">
-      <Card className="w-full max-w-md p-8 bg-gray-800 border-gray-700">
+    <div className="min-h-screen bg-gradient-to-br from-amber-200 via-pink-500 to-purple-500  flex items-center justify-center p-4">
+      <Card className="w-full max-w-md p-8 bg-pink-500 text-white ">
         <div className="flex flex-col items-center mb-6">
           <Video className="w-12 h-12 text-blue-500 mb-4" />
           <h1 className="text-2xl font-bold text-white">Create New Room</h1>
@@ -43,7 +43,7 @@ export default function CreateRoom() {
               placeholder="Enter room name"
               value={roomName}
               onChange={(e) => setRoomName(e.target.value)}
-              className="bg-gray-700 border-gray-600 text-white"
+              className="  text-white"
             />
           </div>
 
