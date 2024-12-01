@@ -1,11 +1,13 @@
 # RetroConfer 🎥✨
 
-## Quick Pitch
-A modern video conferencing app that brings retro vibes to virtual meetings, powered by WebRTC and real-time communication magic!
+## Easy to use Video Conferencing app
+A simple video conferencing app built on Golang powered by WebRTC and real-time communication. Simply sign in, create rooms and share room id with other.
 
-## Tech Backbone
-- **Frontend**: Next.js & React
-- **Backend**: Golang (Gin framework)
+![pic](assets/vid.png)
+
+## Tech 
+- **Frontend**: Next.js, React, TailwindCSS
+- **Backend**: Two mplementations of the Server in Golang (Gin and MUX )
 - **Real-time Communication**: 
   - WebSockets for signaling
   - WebRTC for peer-to-peer video/audio streaming
@@ -24,7 +26,7 @@ A modern video conferencing app that brings retro vibes to virtual meetings, pow
    - Establishes direct peer connections
 3. **Media Streaming**: WebRTC enables direct browser-to-browser media transmission
 
-## Technical Highlights
+## Highlights
 - Real-time communication without central media routing
 - Low-latency video/audio streaming
 - Secure, encrypted peer connections
